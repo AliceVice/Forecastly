@@ -42,8 +42,10 @@ extension OverviewView {
     private var teskSection: some View {
         Section {
             HStack(alignment: .center, spacing: 16) {
-                Text("☁️")
-                    .font(.system(size: 90))
+                Image("Forecastly")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 90, height: 90)
                 
                 Text("Forecastly")
                     .font(.title)
@@ -95,7 +97,6 @@ extension OverviewView {
                         Text("Looks great on both iPhone and iPad.")
                     }
                     
-                    
                     HStack {
                         Text("✏️")
                         Text("Writing clear and concise comments.")
@@ -127,7 +128,6 @@ extension OverviewView {
             }
             
             Text("OpenMeteo free API was used to get the weather data. You can find more information about the API by clicking the link below.")
-                .font(.headline)
             
             if let apiLink {
                 Link("OpenMeteo API", destination: apiLink)
@@ -150,7 +150,6 @@ extension OverviewView {
             }
             
             Text("This task was fun and I really enjoyed creating it! Feel free to use the app's code as you wish. You can find the code on my github page. Happy coding! 🔥")
-                .font(.headline)
             
             if let githubDeveloperLink {
                 Link("My github", destination: githubDeveloperLink)
