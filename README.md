@@ -39,7 +39,7 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
 - When you open the app, you need to grant location access.
 - If you have not enabled location access, you will be redirected to a view with instructions on how to do so; this view also includes a button that opens the settings.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/87a703ff-d4f6-448d-8bff-b1dc05aa486e" 
        alt="RequestLocation"
        width="250" />
@@ -57,14 +57,14 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
 - You can expand the sheet either by using a drag gesture or by tapping the “expand button” in the top right corner.
 - You can view all of the forecast information by scrolling through the sheet.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/ab509bca-35b1-4b14-9f52-0fc26cfc3a27" 
        alt="HomeViewRecord" 
        width="250" />
 </p>
 
 - Tapping the “info button” brings up the Overview screen, which contains links and information about the project and API.
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/6a6bfa84-5157-4001-93b1-52925e00e024" 
        alt="OverviewViewRecord" 
        width="250" />
