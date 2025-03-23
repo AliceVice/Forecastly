@@ -149,7 +149,7 @@ extension OverviewView {
                     .font(.title)
             }
             
-            Text("This task was fun and I really enjoyed creating it! Feel free to use the app's code as you wish. You can find the code on my github page. Happy coding! 🔥")
+            Text("This task was fun and I really enjoyed creating it! Feel free to use the app's code as you wish. You can find it on my github page. Happy coding! 🔥")
             
             if let githubDeveloperLink {
                 Link("My github", destination: githubDeveloperLink)
