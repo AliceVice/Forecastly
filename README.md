@@ -50,8 +50,15 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/65ace3ce-7516-46cd-b872-6564cb0e4332" 
        alt="PermissionDenied"
-       width="250" 
-       style="margin-left: 40px;" />
+       width="250" />
+</p>
+
+- An error screen appears in case if there was an error while fetching the forecast.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/df75ab1f-5a67-4607-b3a0-3cae411fd718" 
+       alt="ErrorScreen"
+       width="250" />
 </p>
 
 - The HomeView features a navigation bar with two buttons (“info button” and “expand button”) and a sheet view displaying a detailed forecast.
