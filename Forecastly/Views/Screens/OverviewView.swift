@@ -5,7 +5,7 @@ import SwiftUI
 struct OverviewView: View {
     
     private let githubDeveloperLink = URL(string: "https://github.com/AliceVice")
-    private let githubProjectLink = URL(string: "https://github.com/AliceVice")
+    private let githubProjectLink = URL(string: "https://github.com/AliceVice/Forecastly")
     private let apiLink = URL(string: "https://open-meteo.com/")
     
     var body: some View {
