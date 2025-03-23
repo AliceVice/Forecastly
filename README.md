@@ -14,36 +14,48 @@ I hope this will help someone 😄.
 ### Screens:
 
 - When you open an App, you need to allow for location use.
-  
-![RequestLocation](https://github.com/user-attachments/assets/4748a810-9a70-4bec-a064-72e650f86189)
-![AllowForLocationUse](https://github.com/user-attachments/assets/2829d441-6270-45b4-8abc-eb967835720c)
-
 - In case if you did not allow for location use, you will get redirected to another view that contains the instructions you need to perform to allow it.
   There is a button that will open the settings for the user
-  
-![PermissionDenied](https://github.com/user-attachments/assets/e27af6dd-2001-47de-bd5c-0a44b127fa3f)
 
-- HomeView has a navigation bar with 2 Buttons ("info button" and "expand button") and a sheetView with a detail forecast.
-
-![HomeView](https://github.com/user-attachments/assets/9cb7bc1e-4f99-46fa-89f5-a39fabe1939e)
-
-- You can expand the sheet by using a drag gesture of "expand button" on the top right.
-
-![HomeViewExpanded](https://github.com/user-attachments/assets/ae753571-c2cb-4c31-8907-443a2aef12bf)
-
-- You can see an entire forecast information by scrolling the sheet
-
-![HomeViewRecord](https://github.com/user-attachments/assets/ab509bca-35b1-4b14-9f52-0fc26cfc3a27)
-
-- Overview screen contains information about the Project and Api
-
-![OverviewViewRecord](https://github.com/user-attachments/assets/6a6bfa84-5157-4001-93b1-52925e00e024)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87a703ff-d4f6-448d-8bff-b1dc05aa486e" 
+       alt="RequestLocation"
+       width="250" />
+  <img src="https://github.com/user-attachments/assets/c0dfd06f-fce8-457c-bd65-3501e856f0dc" 
+       alt="AllowLocationUse"
+       width="250" />
+  <img src="https://github.com/user-attachments/assets/65ace3ce-7516-46cd-b872-6564cb0e4332" 
+       alt="PermissionDenied"
+       width="250" />
+</p>
 
 
+- HomeView has a navigation bar with 2 Buttons ("info button" and "expand button") and a sheetView with a detailed forecast.
+- You can expand the sheet by using a drag gesture or "expand button" on the top right.
+- You can see all the forecast information by scrolling the sheet.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab509bca-35b1-4b14-9f52-0fc26cfc3a27" 
+       alt="HomeViewRecord" 
+       width="250" />
+</p>
+
+- If you click the "info button", the Overview screen will pop up. It contains links and information about the Project and Api.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6a6bfa84-5157-4001-93b1-52925e00e024" 
+       alt="OverviewViewRecord" 
+       width="250" />
+</p>
+
+### Stack:
+
+- ...
+- ... 
 
 # Notes
 - @Observable machanism works only if you have iOS 17, so make sure to select minimum deployment target as iOS 17.
 - If you launch the App you can see the warning in the console, that says: "CoreSVG has logged an error. Set environment variabe "CORESVG_VERBOSE" to learn more."
   I have used .symbolRenderingMode(.multicolor) on the system images and some of them do not have multicolor mode, so this warning is not crucial.
+- May be you have noticed that on the screenshots and videos we can see the bordered bottom of the sheet. That is because i did the screenshots on the simulator. It expanded the image to a square when in reality the simulator screen is a rounded rectangle.
   
