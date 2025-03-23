@@ -81,7 +81,7 @@ struct HomeView: View {
             }
             
             try await viewModel.getForecast(for: userLocation)
-            print("DATA DOWNLOADED")
+            print("FORECAST DATA DOWNLOADED")
         } catch {
             viewModel.loadingState = .error(description: error.localizedDescription)
         }
