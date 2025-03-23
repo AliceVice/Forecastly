@@ -31,6 +31,9 @@ struct DailtyRow: View {
                 
                 Text("\(minTemp) °C")
                     .font(.headline)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                    .frame(width: 40)
                 
                 Rectangle()
                     .fill(
