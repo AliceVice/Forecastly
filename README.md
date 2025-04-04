@@ -4,10 +4,10 @@
   <img src="https://github.com/user-attachments/assets/fede5c8f-2a26-4cee-8b03-d2d078473471" width="30" height="30" style="vertical-align: middle;" />
 </h1>
 
-Hello everyone 👋. Forecastly is a test project showcasing a SwiftUI weather application. I discovered an exciting test task and jumped into building it 🚀.
+Hello everyone 👋. Forecastly is a test project showcasing a SwiftUI weather application.
 
 ### The requirements
-- Build an app that displays today's weather and a 7-day forecast, showing current temperature and conditions, and location along with daily high/low forecasts.
+- Build an app that displays today's weather and a 7-day forecast, showing current temperature, conditions and location along with daily high/low forecasts.
 - Fetch weather based on the user's current location, request permission at launch, and handle all authorization states with appropriate feedback.
 - Use Swift Concurrency (async/await) for all asynchronous operations.
 - Build the UI with SwiftUI using the MVVM pattern for clear separation of concerns.
