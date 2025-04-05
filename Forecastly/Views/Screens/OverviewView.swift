@@ -14,8 +14,6 @@ struct OverviewView: View {
                 teskSection
                 
                 apiSection
-                
-                developerSection
             }
             .tint(.blue)
             .listStyle(.grouped)
@@ -84,7 +82,7 @@ extension OverviewView {
                     
                     HStack {
                         Text("🔧")
-                        Text("A little bit of dependency injection to make the app more maintainable.")
+                        Text("Dependency injection to make the app more maintainable.")
                     }
                     
                     HStack {
@@ -138,27 +136,6 @@ extension OverviewView {
         }
     }
     
-    
-    private var developerSection: some View {
-        Section {
-            HStack(alignment: .center, spacing: 16) {
-                Text("🥳")
-                    .font(.system(size: 90))
-                
-                Text("Hello everybody!")
-                    .font(.title)
-            }
-            
-            Text("This task was fun and I really enjoyed creating it! Feel free to use the app's code as you wish. You can find it on my github page. Happy coding! 🔥")
-            
-            if let githubDeveloperLink {
-                Link("My github", destination: githubDeveloperLink)
-            }
-            
-        } header: {
-            Text("Developer")
-        }
-    }
     
 }
 
