@@ -73,9 +73,10 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
 
 - Tapping the “info button” brings up the Overview screen, which contains links and information about the project and API.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6a6bfa84-5157-4001-93b1-52925e00e024" 
+  <img src="https://github.com/user-attachments/assets/ab5d4704-6bf7-4b8e-9919-fda4f8ff6490" 
        alt="OverviewViewRecord" 
        width="250" />
+
 </p>
 
 
