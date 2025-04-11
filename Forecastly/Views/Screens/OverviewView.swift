@@ -4,14 +4,13 @@ import SwiftUI
 
 struct OverviewView: View {
     
-    private let githubDeveloperLink = URL(string: "https://github.com/AliceVice")
     private let githubProjectLink = URL(string: "https://github.com/AliceVice/Forecastly")
     private let apiLink = URL(string: "https://open-meteo.com/")
     
     var body: some View {
         NavigationStack {
             List {
-                teskSection
+                projectSection
                 
                 apiSection
             }
@@ -37,7 +36,7 @@ struct OverviewView: View {
 
 extension OverviewView {
     
-    private var teskSection: some View {
+    private var projectSection: some View {
         Section {
             HStack(alignment: .center, spacing: 16) {
                 Image("Forecastly")
@@ -108,7 +107,7 @@ extension OverviewView {
             }
             
         } header: {
-            Text("Task")
+            Text("Project")
         }
     }
     
