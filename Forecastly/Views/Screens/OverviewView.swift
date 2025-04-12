@@ -43,20 +43,21 @@ extension OverviewView {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 90, height: 90)
+                    .clipShape(.rect(cornerRadius: 10))
                 
                 Text("Forecastly")
                     .font(.title)
             }
             
             VStack(alignment: .leading, spacing: 16) {
-                Text("This App was incredibly fun to create. It contains a lot of cool features and mechanisms:")
+                Text("This app is a test project that demonstrates the foundations of the developing a mobile weather app using SwiftUI.")
                     .font(.headline)
                 
                 VStack(alignment: .leading, spacing: 12) {
                     
                     HStack {
                         Text("🚀")
-                        Text("Using the MVVM architecture pattern.")
+                        Text("The MVVM architecture pattern.")
                     }
                     
                     HStack {
