@@ -25,19 +25,19 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
 
 ### Stack:
 
-- **SwiftUI**: For building the app’s user interface.  
-- **Swift Concurrency (async/await)**: For handling asynchronous network calls and data processing.  
-- **MVVM Architecture**: For clear separation of concerns and maintainable code.  
-- **Core Location**: For obtaining the user’s current location and reverse‑geocoding.  
-- **Open‑Meteo API**: To fetch real‑time weather data (daily, hourly, and current conditions).  
+- **SwiftUI**: For building the app’s user interface.
+- **MVVM Architecture**: For clear separation of concerns and maintainable code.
+- **Swift Concurrency (async/await)**: For handling asynchronous network calls and data processing.
 - **@Observable** / **Swift’s New Observation Model**: For state management across the app.
+- **Core Location**: For obtaining the user’s current location and reverse‑geocoding.
+- **Open‑Meteo API**: To fetch real‑time weather data (daily, hourly, and current conditions).  
 
 ### Project Structure:
 <img width="250" alt="Screenshot 2025-03-23 at 12 29 46 PM" src="https://github.com/user-attachments/assets/bb5e779c-3d53-489c-ad95-4ab04e3f16db" />
 
 ### Screens:
-- When you open the app, you need to grant location access.
-- If you have not enabled location access, you will be redirected to a view with instructions on how to do so; this view also includes a button that opens the settings.
+- When the user opens the app, he needs to grant location access.
+- If the user has not enabled location access, he will be redirected to a view with instructions on how to do so; this view also includes a button to open the settings.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/87a703ff-d4f6-448d-8bff-b1dc05aa486e" 
@@ -52,7 +52,7 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
        width="250" />
 </p>
 
-- An error screen appears in case if there was an error while fetching the forecast.
+- An error message appears in case if there was an error while fetching the forecast.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/df75ab1f-5a67-4607-b3a0-3cae411fd718" 
@@ -60,7 +60,7 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
        width="250" />
 </p>
 
-- The HomeView features a navigation bar with two buttons (“info button” and “expand button”) and a sheet view displaying a detailed forecast.
+- The HomeView has a navigation bar with two buttons (“info button” and “expand button”) and a sheet view displaying a detailed forecast.
 - You can expand the sheet either by using a drag gesture or by tapping the “expand button” in the top right corner.
 - You can view all of the forecast information by scrolling through the sheet.
 
@@ -86,6 +86,5 @@ Forecastly uses the [OpenMeteo API](https://open-meteo.com/) to fetch real-time 
 - When you launch the app, you might see the following warning in the console:  
   `"CoreSVG has logged an error. Set environment variable 'CORESVG_VERBOSE' to learn more."`  
   This warning is not critical because I have applied `.symbolRenderingMode(.multicolor)` on system images, but not all of them support multicolor mode.
-- You may have noticed that the bottom of the expandable sheet is bordered on the gif. This is because the screenshots were taken on the simulator, which expands the image to a square, whereas the actual simulator screen is a rounded rectangle.
 
   
